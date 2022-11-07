@@ -22,7 +22,7 @@ public class MainActivity extends TabActivity {
         TabHost.TabSpec tabSpecrab=tabHost.newTabSpec("rab").setIndicator("토끼");
         tabSpecrab.setContent(R.id.토끼);
         tabHost.addTab(tabSpecrab);
-        TabHost.TabSpec tabSpeclion=tabHost.newTabSpec("lion").setIndicator("사자");
+        TabHost.TabSpec tabSpeclion=tabHost.newTabSpec("horse").setIndicator("말");
         tabSpeclion.setContent(R.id.말);
         tabHost.addTab(tabSpeclion);
         tabHost.setCurrentTab(0);
